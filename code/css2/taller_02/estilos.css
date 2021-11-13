@@ -1,4 +1,24 @@
+h1 {
+    font-size: 30px;
+    color: darkblue;
+}
+
 h2 {
     font-size: 20px;
     color: #DA5C2D;
+}
+
+.clase_01 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clase_02 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+    border: 1px solid black;
+}
+
+.clase_03 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
 }
