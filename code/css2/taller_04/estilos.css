@@ -1,0 +1,19 @@
+a {
+    display: block;
+    color: chartreuse;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: burlywood;
+    line-height: 30px;
+}
+
+a:hover {
+    color: darkgreen;
+    background-color: white;
+}
+
+a:active {
+    color: black;
+    background-color: yellow;
+}
