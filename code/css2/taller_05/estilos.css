@@ -1,0 +1,28 @@
+a {
+    display: block;
+    color:aquamarine;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightblue;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+a:active {
+    color: black;
+    background-color: yellow;
+}
+
+.anterior {
+    float: left;
+}
+
+.siguiente {
+    float: right;
+}
