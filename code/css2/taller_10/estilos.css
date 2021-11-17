@@ -1,0 +1,11 @@
+p {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+p#posicion_fixed {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
