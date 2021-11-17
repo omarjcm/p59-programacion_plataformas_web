@@ -1,0 +1,11 @@
+p {
+    padding: 10px 20px 30px 40px;
+    border: 1px dotted blue;
+}
+
+p#id_absoluto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+}
