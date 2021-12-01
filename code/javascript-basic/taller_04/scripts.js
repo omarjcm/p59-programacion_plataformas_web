@@ -1,11 +1,11 @@
 // Tipos de Funciones
 
 // Funcion declarativa
-function imprimirResultado() {
-    return 'Hola mundo'
+function imprimirResultado(texto) {
+    return texto
 }
 
-var resultado = imprimirResultado()
+var resultado = imprimirResultado('Hola mundo')
 console.log( resultado )
 
 // Funcion expresiva, o tambien conocidas como anonimas
