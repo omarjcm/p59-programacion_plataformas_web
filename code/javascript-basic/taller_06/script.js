@@ -20,6 +20,7 @@ const pasaste = () => {
 
 console.log( pasaste() )
 
+//Especificacion de ECMASCRIPT
 const saludarEstudiante = function(estudiante) {
     console.log( `Hola, ${estudiante}, tengo un mensaje para ti: ${pasaste()}` )
 }
