@@ -18,7 +18,11 @@ function cargar_datos(base) {
 function obtener_respuesta() {
     if (xhttp !=null && xhttp.readyState == 4 && xhttp.status == 200) {
         monedas = JSON.parse(xhttp.responseText)
-        texto = `<li>AED = ${monedas.data.AED}</li>`
+        texto = 
+        texto = `<ul>
+                    <li>AED = ${monedas.data.AED}</li>
+                    <li>GBP = ${monedas.data.GBP}</li>
+                 </ul>`
 
         let documento = document.getElementById('documento')
         documento.innerHTML = texto
