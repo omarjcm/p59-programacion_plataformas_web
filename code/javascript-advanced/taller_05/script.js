@@ -11,7 +11,7 @@ function base_currency() {
 function cargar_datos(base) {
     xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = obtener_respuesta
-    xhttp.open('GET', 'https://freecurrencyapi.net/api/v2/historical?apikey=77bdac60-5a07-11ec-a2ae-b7be4bf00aaf&base_currency='+base, true)
+    xhttp.open('GET', 'https://freecurrencyapi.net/api/v2/latest?apikey=77bdac60-5a07-11ec-a2ae-b7be4bf00aaf&base_currency='+base, true)
     xhttp.send()
 }
 
