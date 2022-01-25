@@ -1,5 +1,5 @@
 setTimeout(function(){
     console.log('Segunda frase.')
-}, 0)
+}, 1000)
 
 console.log('Primera frase.')
