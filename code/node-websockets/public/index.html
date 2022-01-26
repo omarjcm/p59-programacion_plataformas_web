@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<body>
+    <head>
+        <title>Node.js + Websocket</title>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <h1>Mira la consola.</h1>
+        <script>
+            var socket = io.connect('http://localhost:3000', {
+                forceNet: true
+            })
+            socket.on('mensaje', (data) => console.log(data))
+        </script>
+    </body>
+</body> 

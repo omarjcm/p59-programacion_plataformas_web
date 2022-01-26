@@ -1,9 +1,9 @@
 var xhttp = null
 
-function cargar_datos() {
+function cargar_datos(tipoPeticion) {
     xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = obtener_respuesta
-    xhttp.open('GET', '/mensaje', true)
+    xhttp.open(tipoPeticion, '/mensaje', true)
     xhttp.send()
 }
 
