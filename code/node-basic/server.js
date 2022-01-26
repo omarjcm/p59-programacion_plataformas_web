@@ -11,7 +11,11 @@ app.use( bodyParser.urlencoded({extended:false}) )
 app.use( router )
 
 router.get('/mensaje', function(req, res) {
-    response.success(req, res, 'Lista de mensajes.')
+    if (req.query.error == 'ok') {
+        response.error(req, res, 'Error simulado.')
+    } else {
+        response.success(req, res, 'Lista de mensajes.')
+    }
 })
 
 router.post('/mensaje', function(req, res){
