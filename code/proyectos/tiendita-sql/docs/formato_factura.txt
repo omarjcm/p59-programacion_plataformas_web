@@ -1,0 +1,12 @@
+Este es el formato que se debe enviar de una factura.
+
+{
+    "fecha_emision":"04/02/2022",
+    "valor_total": 200,
+    "empleado": "0928475847",
+    "cliente": "0938477346",
+    "detalles": [
+        {"producto":3, "cantidad":100, "cantidad_x_valor":200},
+        {"producto":4, "cantidad":100, "cantidad_x_valor":200}
+    ]
+}

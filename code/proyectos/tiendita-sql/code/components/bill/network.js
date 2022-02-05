@@ -14,4 +14,14 @@ route.get('/', function(req, res) {
         } )
 })
 
+route.post('/', function(req, res) {
+    controller.addBill( req.body )
+        .then( (data) => {
+            response.success(req, res, data, 200)
+        } )
+        .catch( (data) => {
+            response.error(req, res, data, 500)
+        } )
+})
+
 module.exports = route
